@@ -1,0 +1,76 @@
+/*When viewed on a larger screen */
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: lightblue;
+	background-image: url("images/purplewave.jpg");
+	}
+	h4 {
+		color:lightblue;
+		}
+	
+	.flexbox-container{
+		width=95%;
+	}
+	.photoframe img{
+		/*order: 1;*/
+		color:#873600;
+		background-color:#FAE5D3;
+		width:30%;
+		/*border:3px solid #0000;*/
+	}
+.flexbox-container {
+	display:flex;
+}
+
+
+.flexbox-item {
+	
+	width:31%;
+	margin:10px;
+	padding: 5px;
+	border:3px solid #ccff;
+		text-align:justify;
+	text-indent: 1%;
+	}
+	.education {
+		color:#117a65;
+		background-color:#D0ECE7;
+		width:30%;
+		border:3px solid #45B39D;
+	}
+	.experience {
+		color:#5B2C6F;
+		background-color:#E8DAEF;
+		width:30%;
+		border:3px solid #C39BD3;
+	}
+	.skills {
+		color:#873600;
+		background-color:#FAE5D3;
+		width:30%;
+		border:3px solid #DC7633;
+	}
+	.coverLetter {
+		order: 2;
+		color:#873600;
+		background-color:#FAE5D3;
+		width:95%;
+		border:3px solid #DC7633;
+	}
+	
+}
+
+/* When viewed on a smaller screen:  */
+body {
+	text-align: center;
+	font-family: tahoma;
+	background-color: lightblue;
+	
+}
+.photoframe img{
+		/*order: 1;*/
+		color:#873600;
+		background-color:#FAE5D3;
+		width:30%;
+		/*border:3px solid #0000;*/
+	}
