@@ -1,58 +1,110 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>My CV</title>
-		<link rel="stylesheet" href="styles/style.css" />
-	</head>
-	<body>
-		<p></p>
-		<h4>"Some hidden text for mobile readers"</h4>
-		<!--a h1 showing your name-->
-		<p><h1>Kieran Fitzgibbon</h1></p>
-		<!--a h3 showing your emailaddress and contact details-->
-		<p><h3>e: kieran@email.no - t: 012398765432</h3></p>
-		
-		<div class="flexbox-container">
-			
-			<!--a h2 for Education-->
-			<div class="flexbox-item education">
-				<p><h2>Education</h2></p>
-				<p>B.A. Hons Russian Studies, Biblical and Theological Studies, TCD</p>
-				<p>Accounting Technician Certificate</p>
-				<p>CompTIA Network+, Security+</p>
-			</div>
-			
-			<!--a h2 for Experience-->
-			<div class="flexbox-item experience">
-				<p><h2>Experience</h2></p>
-				<p>Telecom Engineer (2018 to present)</p>
-				<p>IT Field Engineer (2017-2018)</p>
-				<p>Finance Manager (2014-2017)</p>
-				<p>IT Manager (2012-2014)</p>
-				<p>IT Administrator (2010-2012)</p>
-			</div>
-			
-			<!--a h2 for Skills and using unordered list-->
-			<div class="flexbox-item skills">
-				<h2><p>Skills:</p></h2>
-				
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>IT Networks</li>
-					<li>VOIP</li>
-					<li>CV Writing</li>
-				</ul>
-			</div>
-			
-			<!--a h2 for Skills and using unordered list-->
-			
-		</div>
-		<div> 
-				<a href="coverLetter.html">Cover Letter</a>;
-			</div>
-		<!--a link to social media account-->
-		<h3><p><a href="https://www.linkedin.com/in/kieranfitzgibbon">My Linkedin</a></p></h3>
+<html lang="eng">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale-1.0">
+	<title>Kieran's CV</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	
-	</body>
+</head>
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <div class="container">
+	    <a class="navbar-brand" href="#"><img src="images/kieran.jpeg" class="rounded" alt="photo of candidate" height=70 style="margin-right: 5px;">Kieran Fitzgibbon</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav ms-auto">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="#">Home</a>
+	        </li>
+		    <div class="dropdown">
+			  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+			    Education
+			  </a>
+			  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" >
+			    <li><a class="dropdown-item" href="https://www.tcd.ie">B.A. Hons, TCD</a></li>
+			    <li><a class="dropdown-item" href="https://www.accountingtechnicians.ie">Accounting Technician</a></li>
+			    <li><a class="dropdown-item" href="https://www.comptia.org">CompTIA Network+</a></li>
+			    <li><a class="dropdown-item" href="https://www.comptia.org">CompTIA Security+</a></li>
+			  </ul>
+			</div>
+			<div class="dropdown">
+			  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+			    Experience
+			  </a>
+			  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+			    <li><a class="dropdown-item" href="https://www.radius.ie">Telecom Engineer (2018 to present)</a></li>
+			    <li><a class="dropdown-item" href="https://www.radius.ie">IT Field Engineer (2017-2018)</a></li>
+			    <li><a class="dropdown-item" href="https://www.om.org">IT Manager (2012-2017)</a></li>
+			    <li><a class="dropdown-item" href="https://nualight.com">IT Administrator (2010-2012)</a></li>
+			  </ul>
+			</div>
+			<div class="dropdown">
+			  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+			    Skills
+			  </a>
+			  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+			    <li><a class="dropdown-item" href="#">VoIP / SIP</a></li>
+			    <li><a class="dropdown-item" href="#">HTML / CSS</a></li>
+			    <li><a class="dropdown-item" href="#">IT Networks</a></li>
+			    <li><a class="dropdown-item" href="#">IT Management</a></li>
+			  </ul>
+			</div>
+
+	        <li class="nav-item">
+	          <a class="nav-link" href="coverLetter.html">Cover Letter</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="https://www.linkedin.com/in/kieranfitzgibbon">Social Media</a>
+	        </li>
+
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/img1.jpg" alt="call centre staff"class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="images/img2.jpg" class="d-block w-100" alt="web developer">
+    </div>
+    <div class="carousel-item">
+      <img src="images/img4.jpg" class="d-block w-100" alt="callcentre">
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="container pt-4"> 
+
+<!-- about -->
+
+<!-- videos -->
+
+<!-- newsletter -->
+
+<!-- footer -->
+
+
+</div>
+
+</body>
 </html>
